@@ -8918,6 +8918,8 @@ img.lazy-image.loaded{
     padding: 30px;
     background: rgba(0,0,0,0.5);
     width: 100%;
+    position: relative;
+    top: -100px;
 }
 
 .banner-section .form-area form .form-control {
