@@ -972,7 +972,16 @@
 @media only screen and (min-width: 992px) {
 	.style-three .banner-carousel .content-box{
 		margin-top: -75px;
-		margin-left: 100px;	
-}
+		margin-left: 80px;	
+	}
+
+	.style-three .banner-carousel .slide-item{
+		height: 100vh;
+	}
+
+	.banner-section .form-area {
+    	top: -120px;
+    	right: 40px;
+	}
 
 }

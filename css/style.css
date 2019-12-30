@@ -1772,7 +1772,7 @@ img{
 
 .banner-carousel .content-box h2{
 	display: block;
-	font-size: 75px;
+	font-size: 64px;
 	line-height: 1.15em;
 	color: #ffffff;
 	font-weight: 400;
@@ -2090,7 +2090,7 @@ img{
 	top:-19px;
 	width:100%;
 	height:20px;
-	background:url(../images/background/rotten-curve-1.png) center bottom no-repeat;
+	/*background:url(../images/background/rotten-curve-1.png) center bottom no-repeat;*/
 	background-size:100% 100%;
 	z-index:2;
 }
@@ -8916,10 +8916,10 @@ img.lazy-image.loaded{
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     padding: 30px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
     width: 100%;
     position: relative;
-    top: -100px;
+    top: 30px;
 }
 
 .banner-section .form-area form .form-control {
@@ -8937,11 +8937,17 @@ img.lazy-image.loaded{
     grid-row-gap: 15px;
 }
 .banner-section .form-area form button {
-    background: rgba(71, 160, 43,0.6);
+    /*background: rgba(71, 160, 43,0.6);*/
+    background: #3cc88f;
+    color: #fff;
     border-radius: 0;
     border: 1px solid #FFF;
     padding: 8px 12px;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.banner-section .form-area .form-text{
+	color: #fff;
 }
