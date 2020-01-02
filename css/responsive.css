@@ -529,6 +529,10 @@
 		font-size: 48px;
 	}
 
+	.about-section .form-area{
+		width: 95%;
+	}
+
 	.banner-carousel .content-box .text{
 		font-size: 16px;
 	}
