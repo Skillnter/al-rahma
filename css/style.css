@@ -2279,6 +2279,14 @@ img{
 	overflow:hidden;
 }
 
+.charitable-section{
+    padding: 70px 50px 120px;
+}
+
+.biography h1, .biography h2{
+	padding: 20px 0px;
+}
+
 .causes-section .circle-one{
 	position:absolute;
 	left:-300px;
@@ -3589,7 +3597,7 @@ img{
 
 .main-footer .widgets-section{
 	position:relative;
-	padding:120px 0px;
+	padding: 80px 0px 0px;
 }
 
 .main-footer .column{
