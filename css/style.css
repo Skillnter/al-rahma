@@ -8961,3 +8961,29 @@ img.lazy-image.loaded{
 .about-section .form-area .form-text{
 	color: #fff;
 }
+
+.footer-logo img{
+	width: 200px;
+    height: auto;
+}
+
+.main-footer form.subscribe input[type="email"]{
+	color: #25283a;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.main-footer form.subscribe button a span{
+	border-radius: 4px;
+    background-color: #3cc88f;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.main-footer form.subscribe button{
+	float: right;
+}
+
