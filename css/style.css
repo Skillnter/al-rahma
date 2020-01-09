@@ -3313,7 +3313,7 @@ img{
 
 .news-section{
 	position:relative;
-	padding:160px 0px 120px;
+	padding: 160px 0px 75px;
 	background-color:#ffffff;
 	z-index:2;
 }
@@ -8914,6 +8914,25 @@ img.lazy-image.loaded{
 	height: auto;
 	opacity: 1;
 }
+
+.owl-theme img.lazy-image.partner1{
+	width: 45%;
+    position: relative;
+    bottom: 31px;
+}
+
+.owl-theme img.lazy-image{
+	margin: auto;
+}
+
+.owl-theme img.lazy-image.partner2{
+	width: 50%;
+}
+
+.owl-theme img.lazy-image.partner3,.owl-theme img.lazy-image.partner4{
+	width: 60%;
+}
+
 
 .owl-theme .owl-prev span,
 .owl-theme .owl-next span{
