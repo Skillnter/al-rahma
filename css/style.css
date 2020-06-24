@@ -9124,6 +9124,7 @@ img.lazy-image.loaded{
 	display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 15px;
+    align-items: center;
 }
 
 .news-section .title-box.override .sec-title > span{
