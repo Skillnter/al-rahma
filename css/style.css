@@ -9080,9 +9080,21 @@ img.lazy-image.loaded{
 }
 
 .team-block .icon-box.topic_override span{
-	font-size: 110px;
-	line-height: 180px;
+	font-size: 120px;
+	line-height: 200px;
 	color: #3cc88f;
+}
+
+.team-block .icon-box.topic_override.red span{
+	color: #ff6b70
+}
+
+.team-block .icon-box.topic_override.blue span{
+	color: #21d7d9
+}
+
+.team-block .icon-box.topic_override.yellow span{
+	color: #f7a900
 }
 
 .team-block .inner-box.topic_override_wrapper:hover .lower-box{
@@ -9094,4 +9106,8 @@ img.lazy-image.loaded{
 	top:100%;
 	position: absolute;
 	padding-top: 0;
+}
+
+.team-block .lower-box.topic_override_animation .social-links{
+	padding-top: 10px;
 }
