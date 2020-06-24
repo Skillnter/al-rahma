@@ -9111,3 +9111,38 @@ img.lazy-image.loaded{
 .team-block .lower-box.topic_override_animation .social-links{
 	padding-top: 10px;
 }
+
+.news-section .title-box.override{
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    align-items: center;
+    margin-bottom: 0
+}
+
+.news-section .title-box.override .sec-title{
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+}
+
+.news-section .title-box.override .sec-title > span{
+	text-align: right;
+}
+
+.news-section .title-box.override .sec-title .icon-box span{
+	font-size: 50px;
+}
+
+.news-section .title-box.override .link{
+	padding-top: 0;
+}
+
+.news-section.team-section{
+	background: #f3f4f5
+}
+
+.news-section.team-section .bottom-rotten-curve{
+	background: url(../images/background/rotten-curve-4-grey.png) center top no-repeat;
+}
+
