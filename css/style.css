@@ -9077,6 +9077,7 @@ img.lazy-image.loaded{
 	display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    grid-column-gap: 10px;
 }
 
 .team-block .icon-box.topic_override span{
@@ -9129,6 +9130,10 @@ img.lazy-image.loaded{
 
 .news-section .title-box.override .sec-title > span{
 	text-align: right;
+}
+
+.news-section .title-box.override .sec-title .icon-box{
+	text-align: left;
 }
 
 .news-section .title-box.override .sec-title .icon-box span{
