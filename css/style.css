@@ -9153,3 +9153,12 @@ img.lazy-image.loaded{
 	background: url(../images/background/rotten-curve-4-grey.png) center top no-repeat;
 }
 
+/* WHO WE ARE */
+.disc_list{
+	list-style: disc;
+	direction: rtl;
+}
+
+.disc_list li{
+	list-style: disc;
+}
