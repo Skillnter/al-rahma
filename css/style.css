@@ -9191,3 +9191,13 @@ img.lazy-image.loaded{
     background: #edf1f5;
     padding: 50px 0;
 }
+
+.who .content_social{
+	text-align: center;
+}
+
+.who ul.social-links li{
+	position: relative;
+    margin-right: 8px;
+    display: inline-block;
+}
