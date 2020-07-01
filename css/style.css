@@ -9172,7 +9172,7 @@ img.lazy-image.loaded{
 	list-style: disc;
 }
 
-.news_page .bottom-rotten-curve, .library_page .bottom-rotten-curve, .program_page .bottom-rotten-curve, .publication_page .bottom-rotten-curve, .dialogues_page .bottom-rotten-curve, .donation_page .bottom-rotten-curve, .help_page .bottom-rotten-curve, .project_page .bottom-rotten-curve{
+.news_page .bottom-rotten-curve, .library_page .bottom-rotten-curve, .program_page .bottom-rotten-curve, .publication_page .bottom-rotten-curve, .dialogues_page .bottom-rotten-curve, .donation_page .bottom-rotten-curve, .help_page .bottom-rotten-curve, .project_page .bottom-rotten-curve, .assembly_page .bottom-rotten-curve{
 	position: absolute;
     left: 0;
     bottom: 0;
@@ -9183,11 +9183,15 @@ img.lazy-image.loaded{
     z-index: 63;
 }
 
+ .assembly_page .team-section .bottom-rotten-curve{
+ 	background: url(../images/background/rotten-curve-5.png) center top no-repeat;
+ }
+
 .news_page .banner-carousel{
 	z-index: -1;
 }
 
-.news_page .gallery-page-section, .library_page .gallery-page-section, .program_page .gallery-page-section, .publication_page  .gallery-page-section, .dialogues_page .gallery-page-section, .donation_page .mission-vision, .help_page .sidebar-page-container, .project_page .sidebar-page-container{
+.news_page .gallery-page-section, .library_page .gallery-page-section, .program_page .gallery-page-section, .publication_page  .gallery-page-section, .dialogues_page .gallery-page-section, .donation_page .mission-vision, .help_page .sidebar-page-container, .project_page .sidebar-page-container, .assembly_page .team-section{
     background: #edf1f5;
     padding: 50px 0;
 }
@@ -9209,4 +9213,9 @@ pre {
  white-space: -pre-line;      /* Opera 4-6 */
  white-space: -o-pre-line;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.bold{
+	font-weight: 600;
+	font-size: 25px;
 }
