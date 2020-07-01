@@ -9187,7 +9187,7 @@ img.lazy-image.loaded{
 	z-index: -1;
 }
 
-.news_page .gallery-page-section, .library_page .gallery-page-section, .program_page .gallery-page-section, .publication_page  .gallery-page-section, .dialogues_page .gallery-page-section, .donation_page .gallery-page-section, .help_page .sidebar-page-container, .project_page .sidebar-page-container{
+.news_page .gallery-page-section, .library_page .gallery-page-section, .program_page .gallery-page-section, .publication_page  .gallery-page-section, .dialogues_page .gallery-page-section, .donation_page .mission-vision, .help_page .sidebar-page-container, .project_page .sidebar-page-container{
     background: #edf1f5;
     padding: 50px 0;
 }
