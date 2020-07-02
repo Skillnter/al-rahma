@@ -201,36 +201,91 @@
             </div>
             <div class="bottom-rotten-curve"></div>
         </section>
-        <section class="mission-vision" style="padding: 50px 0">
-            <div class="circle-one"></div>
-            <div class="circle-two"></div>
-            <div class="auto-container">
-                <div class="vision">
-                    <div class="row clearfix">
-                        <div class="text-column col-md-12 col-sm-12">
-                            <div class="inner">
-                                <div class="sec-title centered">
-                                    <!-- <div class="sub-title">Proident sunt</div> -->
-                                    <!-- <h2>
-                                        تبرع مالي  
-                                    </h2> -->
-                                    <div class="text">
-                                        <pre>
-                                            نبذة عن التطوع
-                                            الاسم 
-                                            العمر 
-                                            الولاية والمنطقة 
-                                            الهاتف
-                                            نوع التطوع (فرز مبالغ- فرز لكسوة عيد – تنظيم فعالية)
-                                            للاستفسار 93957770
-                                            الايميل (alrahmamedia@hotmail.com
-                                        </pre>
+        <section class="contact-section">
+            <div class="outer-container clearfix">
+                
+                <div class="form-column clearfix">
+                    <div class="inner clearfix">
+                    
+                        <div class="sec-title centered" style="margin-bottom: 15px;">
+                            <!-- <div class="sub-title">Inquiry</div> -->
+                            <h2>
+                                نبذة عن التطوع
+                            </h2>
+                            <!-- <div class="text">Cupidatat non proident sunt</div> -->
+                        </div>
+                        
+                        <!-- Contact Form-->
+                        <div class="contact-form">
+                            <form method="post" action="sendemail.php" id="contact-form" novalidate="novalidate">
+                                <div class="row clearfix">                                    
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="name" placeholder=" الاسم " required="">
                                     </div>
-                                    <!-- <div class="link-box"><a href="cause-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div> -->
+
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="age" placeholder=" العمر " required="">
+                                    </div>
+                                    
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="state_region" placeholder=" الولاية والمنطقة " required="">
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="phone" placeholder=" الهاتف " required="">
+                                    </div>
+            
+                                    <div class="col-sm-12 form-group">
+                                        <select name="type">
+                                            <option> نوع التطوع </option>
+                                            <option value=" فرز مبالغ "> فرز مبالغ </option>
+                                            <option value=" فرز لكسوة عيد "> فرز لكسوة عيد </option>
+                                            <option value=" تنظيم فعالية "> تنظيم فعالية </option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="col-md-12 col-sm-12 form-group text-center">
+                                        <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Send Message</span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-column clearfix">
+                    <div class="info-boxes">
+
+                        <div class="row clearfix">
+                            <div class="info-box col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                                    <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-2.jpg')" data-was-processed="true" style="background-image: url(&quot;images/resource/contact-image-2.jpg&quot;);"></div>
+                                    <div class="icon-box"><span class="flaticon-phone-call"></span></div>
+                                    <h4>
+                                        للاستفسار
+                                    </h4>
+                                    <ul>
+                                        <li><a href="tel:93957770">93957770</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="info-box col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" data-wow-delay="600ms" style="visibility: visible; animation-delay: 600ms; animation-name: fadeInUp;">
+                                    <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-3.jpg')" data-was-processed="true" style="background-image: url(&quot;images/resource/contact-image-3.jpg&quot;);"></div>
+                                    <div class="icon-box"><span class="flaticon-email"></span></div>
+                                    <h4>
+                                        الايميل 
+                                    </h4>
+                                    <ul>
+                                        <li><a href="mailto:alrahmamedia@hotmail.com">alrahmamedia@hotmail.com</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+
                     </div>
+                        
                 </div>
             </div>
         </section>
@@ -351,6 +406,7 @@
     <script src="js/wow.js"></script>
     <script src="js/lazyload.js"></script>
     <script src="js/scrollbar.js"></script>
+    <script src="js/validate.js"></script>
     <script src="js/script.js"></script>
 </body>
 
